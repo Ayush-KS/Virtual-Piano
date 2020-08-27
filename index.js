@@ -10,6 +10,7 @@ var piano = Synth.createInstrument('piano');
 
 $(".key").click(function() { 
     var note = this.innerText;
+    var octave = $(this).hasClass("4") ? 4 : 5;
     console.log(note)
-    piano.play(note, 4, 2); 
+    piano.play(note, octave, 2); 
 })
