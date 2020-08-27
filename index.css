@@ -18,7 +18,7 @@ body {
 }
 
 #heading {
-    height:200px;
+    height:170px;
     width: 100%;
     position: relative;
     text-align: center;
@@ -48,7 +48,7 @@ body {
     background-color: white;
     display: flex;
     border-radius: 2%;
-    border: 2px solid black;
+    border: 5px solid black;
 }
 
 .key {
@@ -87,7 +87,7 @@ body {
 #selects {
     width:100%;
     position: absolute;
-    bottom:0;
+    bottom:10px;
     display: flex;
     justify-content:center;
 }
@@ -102,4 +102,8 @@ body {
 
 .form {
     width:20% !important;
+}
+
+#info {
+    color:white;
 }
