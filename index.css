@@ -83,3 +83,23 @@ body {
     color:white;
     z-index: 2;
 }
+
+#selects {
+    width:100%;
+    position: absolute;
+    bottom:0;
+    display: flex;
+    justify-content:center;
+}
+
+#blank {
+    width:5%;
+}
+
+.half-opacity {
+    opacity:0.3;
+}
+
+.form {
+    width:20% !important;
+}
