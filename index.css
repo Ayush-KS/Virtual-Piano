@@ -6,7 +6,7 @@ body {
     width:100vw;
     height:100vh;
     margin: 0;
-    background-image: url("/Images/keys-min.jpg");
+    background-image: url("/Images/hills.png");
     background-position: center;
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */

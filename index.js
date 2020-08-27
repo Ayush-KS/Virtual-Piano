@@ -5,7 +5,7 @@ testInstance instanceof AudioSynth; // true
 
 testInstance === Synth; // true
 
-var piano = Synth.createInstrument('piano');
+var piano = Synth.createInstrument('acoustic');
 
 
 $(".key").click(function() { 
